@@ -37,6 +37,9 @@ describe('writeClientServices', () => {
                 request: () => 'request',
                 baseHttpRequest: () => 'baseHttpRequest',
                 httpRequest: () => 'httpRequest',
+                utils: {
+                    omitReadonly: () => 'omitReadonly',
+                },
             },
         };
 
