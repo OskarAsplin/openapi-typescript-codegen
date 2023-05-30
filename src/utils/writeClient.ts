@@ -91,6 +91,7 @@ export const writeClient = async (
             useOptions,
             indent,
             postfixServices,
+            transformCase,
             clientName
         );
     }
