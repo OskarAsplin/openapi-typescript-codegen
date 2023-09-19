@@ -48,6 +48,7 @@ export const convertServiceCase = (service: Service, type: Exclude<Case, Case.NO
         ...service,
         operations: service.operations.map(op => ({
             ...op,
+            parameters: op.parameters.map(opParameter => convertModelCase(opParameter, type)),
             results: op.results.map(results => convertModelCase(results, type)),
         })),
     };
