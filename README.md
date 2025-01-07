@@ -1,3 +1,13 @@
+This is a fork of the original OpenAPI Typescript Codegen library. It is only meant as a temprorary npm package to use until these feature requests are merged into the original repo:
+- https://github.com/ferdikoomen/openapi-typescript-codegen/pull/1465
+- https://github.com/ferdikoomen/openapi-typescript-codegen/pull/1145
+
+To install this fork: `npm install @oskarasplin/openapi-typescript-codegen`
+
+At the time of writing the `feature/omit-read-only` branch is published as the latest npm version
+
+Original ReadMe below
+
 # Important announcement
 
 > [!IMPORTANT] 
